@@ -10,4 +10,8 @@ public class UserController {
     public String hello(){
         return "hello";
     }
+    @GetMapping(value = "/success")
+    public String success(){
+        return "ok";
+    }
 }
